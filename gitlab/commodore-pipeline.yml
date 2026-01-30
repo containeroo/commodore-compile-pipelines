@@ -5,7 +5,7 @@ stages:
   - trigger
 
 variables:
-  PIPELINE_GENERATION_IMAGE_NAME: ghcr.io/projectsyn/commodore-compile-pipelines/gitlab
+  PIPELINE_GENERATION_IMAGE_NAME: ghcr.io/containeroo/commodore-compile-pipelines/gitlab
   PIPELINE_GENERATION_IMAGE_TAG: latest
   PIPELINE_GENERATION_IMAGE: ${PIPELINE_GENERATION_IMAGE_NAME}:${PIPELINE_GENERATION_IMAGE_TAG}
 
